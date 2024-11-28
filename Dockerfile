@@ -36,6 +36,7 @@ RUN \
   apt-get install -y --no-install-recommends \
     ${BOINC} \
     at-spi2-core \
+    intel-opencl-icd \
     boinc-client-opencl \
     boinc-manager \
     bzip2 \
